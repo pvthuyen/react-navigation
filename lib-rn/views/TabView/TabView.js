@@ -80,7 +80,6 @@ class TabView extends React.PureComponent {
   };
 
   render() {
-    console.log('Tab View');
     const {
       router,
       tabBarComponent,
@@ -130,6 +129,8 @@ class TabView extends React.PureComponent {
       screenProps: this.props.screenProps,
       style: styles.container
     };
+
+    console.log('Tab View', props);
 
     // $FlowFixMe: mismatch with react-native-tab-view type
     return <TabViewAnimated {...props} />;
