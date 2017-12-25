@@ -4494,6 +4494,12 @@ react-native-tab-view@^0.0.70:
   dependencies:
     prop-types "^15.5.10"
 
+"react-native-tab-view@https://github.com/pvthuyen/react-native-tab-view.git":
+  version "0.0.73"
+  resolved "https://github.com/pvthuyen/react-native-tab-view.git#610d53cc085ee1c7c24eb2ab145023f6605312b1"
+  dependencies:
+    prop-types "^15.6.0"
+
 react-native-vector-icons@^4.2.0:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-4.4.2.tgz#090f42ee0396c4cc4eae0ddaa518028ba8df40c7"

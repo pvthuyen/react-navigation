@@ -168,6 +168,7 @@ class TabView extends React.PureComponent<Props> {
   };
 
   render() {
+    console.log('Tab View');
     const {
       router,
       tabBarComponent,
