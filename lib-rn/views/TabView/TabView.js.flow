@@ -163,7 +163,6 @@ class TabView extends React.PureComponent<Props> {
   };
 
   _renderPager = (props: *) => {
-    console.log(props);
     return <TabViewPagerPan {...props} />;
   };
 
@@ -205,12 +204,7 @@ class TabView extends React.PureComponent<Props> {
       }
     }
 
-    if (
-      (animationEnabled === false && swipeEnabled === false) ||
-      typeof configureTransition === 'function'
-    ) {
-      renderPager = this._renderPager;
-    }
+    renderPager = this._renderPager;
 
     const props = {
       lazy,
