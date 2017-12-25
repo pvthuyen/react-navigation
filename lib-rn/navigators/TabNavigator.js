@@ -16,6 +16,7 @@ import NavigatorTypes from './NavigatorTypes';
 
 
 const TabNavigator = (routeConfigs, config = {}) => {
+  console.log('Tab Navigator');
   // Use the look native to the platform by default
   const mergedConfig = { ...TabNavigator.Presets.Default, ...config };
   const {

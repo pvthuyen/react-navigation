@@ -40,6 +40,7 @@ const TabNavigator = (
   routeConfigs: NavigationRouteConfigMap,
   config: TabNavigatorConfig = {}
 ) => {
+  console.log('Tab Navigator');
   // Use the look native to the platform by default
   const mergedConfig = { ...TabNavigator.Presets.Default, ...config };
   const {
